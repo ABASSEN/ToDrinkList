@@ -22,13 +22,13 @@
 - (void)loadInitialData {
     
     XYZToDrinkItem *item1 = [[XYZToDrinkItem alloc] init];
-    item1.itemName = @"Buy milk";
+    item1.itemName = @"Water";
     [self.toDrinkItems addObject:item1];
     XYZToDrinkItem *item2 = [[XYZToDrinkItem alloc] init];
-    item2.itemName = @"Buy eggs";
+    item2.itemName = @"Juice";
     [self.toDrinkItems addObject:item2];
     XYZToDrinkItem *item3 = [[XYZToDrinkItem alloc] init];
-    item3.itemName = @"Read a book";
+    item3.itemName = @"Tea";
     [self.toDrinkItems addObject:item3];
     
 }

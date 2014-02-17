@@ -25,6 +25,8 @@
 		43CF407D18B14739003B5C06 /* XYZAddToDrinkItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CF407C18B14739003B5C06 /* XYZAddToDrinkItemViewController.m */; };
 		43CF408018B14911003B5C06 /* XYZToDrinkListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CF407F18B14911003B5C06 /* XYZToDrinkListViewController.m */; };
 		43CF408318B14B7E003B5C06 /* XYZToDrinkItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CF408218B14B7E003B5C06 /* XYZToDrinkItem.m */; };
+		43CF408718B18D21003B5C06 /* champagne-glass-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = 43CF408618B18D21003B5C06 /* champagne-glass-hi.png */; };
+		43CF408A18B19231003B5C06 /* XYZWebsiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CF408918B19231003B5C06 /* XYZWebsiteViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,9 @@
 		43CF407F18B14911003B5C06 /* XYZToDrinkListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZToDrinkListViewController.m; sourceTree = "<group>"; };
 		43CF408118B14B7E003B5C06 /* XYZToDrinkItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZToDrinkItem.h; sourceTree = "<group>"; };
 		43CF408218B14B7E003B5C06 /* XYZToDrinkItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZToDrinkItem.m; sourceTree = "<group>"; };
+		43CF408618B18D21003B5C06 /* champagne-glass-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "champagne-glass-hi.png"; sourceTree = SOURCE_ROOT; };
+		43CF408818B19231003B5C06 /* XYZWebsiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZWebsiteViewController.h; sourceTree = "<group>"; };
+		43CF408918B19231003B5C06 /* XYZWebsiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZWebsiteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +131,10 @@
 			isa = PBXGroup;
 			children = (
 				4346218B18B13C0D0062FB30 /* Main.storyboard */,
+				43CF408818B19231003B5C06 /* XYZWebsiteViewController.h */,
+				43CF408918B19231003B5C06 /* XYZWebsiteViewController.m */,
 				43CF407E18B14911003B5C06 /* XYZToDrinkListViewController.h */,
+				43CF408618B18D21003B5C06 /* champagne-glass-hi.png */,
 				43CF407F18B14911003B5C06 /* XYZToDrinkListViewController.m */,
 				43CF407B18B14739003B5C06 /* XYZAddToDrinkItemViewController.h */,
 				43CF407C18B14739003B5C06 /* XYZAddToDrinkItemViewController.m */,
@@ -247,6 +255,7 @@
 				4346216918B1395D0062FB30 /* Default@2x.png in Resources */,
 				4346216B18B1395D0062FB30 /* Default-568h@2x.png in Resources */,
 				4346218C18B13C0D0062FB30 /* Main.storyboard in Resources */,
+				43CF408718B18D21003B5C06 /* champagne-glass-hi.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +295,7 @@
 				43CF407D18B14739003B5C06 /* XYZAddToDrinkItemViewController.m in Sources */,
 				43CF408018B14911003B5C06 /* XYZToDrinkListViewController.m in Sources */,
 				43CF408318B14B7E003B5C06 /* XYZToDrinkItem.m in Sources */,
+				43CF408A18B19231003B5C06 /* XYZWebsiteViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
